@@ -1,0 +1,31 @@
+site_name: NC8 - Last War
+site_url: https://flanciskinho.github.io/nc8-last-war
+
+site_author: flanciskinho
+site_description: Página con información del juego Last War adaptada para la alianza NC8
+
+repo_name: flanciskinho/nc8-last-war
+repo_url: https://github.com/flanciskinho/nc8-last-war
+
+theme:
+  name: material
+  language: es
+
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  generator: false
+
+copyright: flanciskinho 2024
