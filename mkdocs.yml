@@ -19,8 +19,11 @@ theme:
     - navigation.indexes
     - navigation.autohide
     - navigation.footer
-    - content.action.edit
-    - content.action.view
+# las dos siguientes son para que puedan ver el fuente y editarlo
+# no ponerlo al principio para que no se confundan, pero ponerlo
+# en un futuro para que puedan sugerir cambios
+#    - content.action.edit
+#    - content.action.view
     - search.share
   palette:
 
