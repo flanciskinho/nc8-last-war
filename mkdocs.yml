@@ -10,10 +10,52 @@ repo_url: https://github.com/flanciskinho/nc8-last-war
 theme:
   name: material
   language: es
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.indexes
+    - navigation.autohide
+    - navigation.footer
+    - content.action.edit
+    - content.action.view
+    - search.share
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Cambiar al modo claro
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/weather-night
+        name: Cambiar al modo oscuro
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a preferencias del sistema
+
+nav:
+  - Bienvenido: index.md
+  - Primeros pasos: primeros-pasos.md
+  - Normativa: normativa.md
+  - Tareas diarias: tareas-diarias.md
+  - Consejos: consejos.md
+  - Preguntas frecuentes: faq.md
 
 
 plugins:
   - search
+  - social
 
 markdown_extensions:
   - attr_list
