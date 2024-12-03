@@ -1,4 +1,4 @@
-# Bienvenido a NC8
+# Bienvenido a NC8!
 
 En esta página, te vas a encontrar información relacionada sobre el juego Last War y más específicamente información adaptada a la alianza NC8, la alianza hispano hablante más fuerte del servidor 336.
 
